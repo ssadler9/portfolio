@@ -1,7 +1,34 @@
+h1,h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+h1 { 
+	color: #F8F8FF;
+	font-size: 3.5em; 
+}
+h2 {
+  color: #F8F8FF;
+  font-size: 2em;
+}
+
 .background {
 	background-image: url('../images/wood-2925399_1920.jpg');
 }
 
 .navbar {
   background: none;
+}
+
+.centered {
+  position: fixed; /* or absolute */
+  top: 40%;
+  left: 30%;
+}
+
+a {
+	color: blue;
+}
+
+a:hover {
+	color: red;
 }
