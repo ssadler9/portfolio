@@ -11,6 +11,18 @@ h2 {
   font-size: 2em;
 }
 
+p {
+	color: #F8F8FF;
+}
+
+a {
+	color: blue;
+}
+
+a:hover {
+	color: red;
+}
+
 .background {
 	background-image: url('../images/wood-2925399_1920.jpg');
 }
@@ -25,10 +37,14 @@ h2 {
   left: 30%;
 }
 
-a {
-	color: blue;
+.bkgrd {
+	background-color: #393636;
+	position: relative;
+	width: 60%;
+	top: 30%;
+	left: 20%;
 }
 
-a:hover {
-	color: red;
-}
+
+
+
