@@ -28,7 +28,9 @@ a:hover {
 }
 
 .navbar {
-  background: none;
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
 }
 
 .centered {
@@ -38,13 +40,18 @@ a:hover {
 }
 
 .bkgrd {
-	background-color: #393636;
+	background-color: #303539;
 	position: relative;
 	width: 60%;
 	top: 30%;
 	left: 20%;
 }
 
+.picture {
+	position: relative;
+	top: 20%;
+	left: 30%;
+}
 
 
 
