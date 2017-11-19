@@ -49,8 +49,10 @@ a:hover {
 
 .picture {
 	position: relative;
+	width: 60%;
+	height: 30%;
 	top: 20%;
-	left: 30%;
+	left: 33%;
 }
 
 
