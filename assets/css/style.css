@@ -16,7 +16,7 @@ p {
 }
 
 a {
-	color: red;
+	color: #66a3ff;
 }
 
 a:hover {
@@ -43,9 +43,8 @@ a:hover {
 .bkgrd {
 	background-color: #303539;
 	position: relative;
-	width: 60%;
-	top: 30%;
-	left: 20%;
+	width: 90%;
+	padding: 0px 0px 10px 10px;
 }
 
 .picture {
@@ -53,7 +52,6 @@ a:hover {
 	width: 60%;
 	height: 30%;
 	top: 20%;
-	left: 33%;
 }
 
 .contact {
@@ -64,9 +62,25 @@ a:hover {
 	left: 20%;
 }
 
+.about_me {
+	top: 10%;
+}
 
+.projects {
+	background-color: #303539;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
 
+.interview {
+	background-image: url('../images/interview-request.jpg');
 
+}
+
+.icon {
+	padding: 10px 10px 10px 10px;
+}
 
 
 
