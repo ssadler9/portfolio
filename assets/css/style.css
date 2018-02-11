@@ -16,7 +16,7 @@ p {
 }
 
 a {
-	color: #66a3ff;
+	color: #F8F8FF;
 }
 
 a:hover {
@@ -24,8 +24,10 @@ a:hover {
 }
 
 .background {
-	background-image: url('../images/milada-vigerova-66601.jpg');
+	background-image: url('../images/wood-2925399_1920.jpg');
 	background-size: 100%;
+	height: 500px;
+	width: 100%;
 }
 
 .navbar {
@@ -35,16 +37,18 @@ a:hover {
 }
 
 .centered {
-  position: fixed; /* or absolute */
-  top: 40%;
-  left: 30%;
+  position: absolute; /* or absolute */
+  top: 30%;
+  left: 28%;
 }
 
 .bkgrd {
-	background-color: #303539;
+	background-image: url('../images/milada-vigerova-66601.jpg');
+	background-size: 100%;
 	position: relative;
-	width: 90%;
-	padding: 0px 0px 10px 10px;
+	height: 500px;
+	width: 100%;
+	
 }
 
 .picture {
@@ -58,8 +62,8 @@ a:hover {
 	background-color: #303539;
 	position: relative;
 	width: 60%;
-	top: 40%;
 	left: 20%;
+	padding-bottom: 50px;
 }
 
 .about_me {
@@ -67,19 +71,34 @@ a:hover {
 }
 
 .projects {
-	background-color: #303539;
+	background-color: #F8F8FF;
 	position: relative;
 	width: 100%;
 	height: 100%;
 }
 
-.interview {
-	background-image: url('../images/interview-request.jpg');
-
-}
 
 .icon {
 	padding: 10px 10px 10px 10px;
+}
+
+.pic {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	top: 20%;
+	margin-left: 37px;
+}
+
+.color {
+	background-color: #303539;
+}
+
+.about {
+	background-color: #303539;
+	height: 100%;
+	position: relative;
+	left: 5px;
 }
 
 

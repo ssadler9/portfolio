@@ -7,46 +7,109 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<body class="background">
-    <nav class="navbar transparent navbar-dark bg-dark sticky-top">
-        <a class="navbar-brand" href="#">Sam Sadler</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="../portfolio/index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../portfolio/about.html">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../portfolio/projects.html">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../portfolio/contact.html">Contact Me</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+<body class="color">
+
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand" href="#">Sam Sadler</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html#Home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html#About_me">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html#Projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html#Contact_me">Contact Me</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
 <div class="container">
 
+    <div id="Home" class="background">
         <div class="home centered">
             <div class="row">
                 <div class="col-sm-12">
                     <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
                     <h1><strong>Sam is a 
-  			<span
-     			class="txt-rotate"
-     			data-period="2000"
-     			data-rotate='[ "Front-End Developer.", "Back-End Developer.", "Coding Enthusiast.", "Hardworker.", "Team Player."]'></span>
-					</strong></h1>
-                    <h2><strong>All it takes is a single <a href="../portfolio/contact.html">Contact</a>.</strong></h2>
+            <span
+                class="txt-rotate"
+                data-period="2000"
+                data-rotate='[ "Front-End Developer.", "Back-End Developer.", "Coding Enthusiast.", "Hardworker.", "Team Player."]'></span>
+                    </strong></h1>
+                    <h2><strong>All it takes is a single <a href="index.html#Contact_me">Contact</a>.</strong></h2>
                 </div>
             </div>
         </div>
-    
+    </div>
+
+    <div id="About_me" class="about_me bkgrd">
+        <h2>About Me</h2>
+        <br>
+        <div class="row">
+            <div class="col-sm-6 about">
+                <p>
+                    Hi! My name is Sam Sadler. I am a front and back-end developer currently living in Austin, TX. Web Development has always been a passion of mine. I recently graduated from the University of Texas Coding Bootcamp.  The program gave me hands-on experience with HTML, CSS and JavaScript. 
+                </p>  
+                <p>
+                    The languages I'm comfortable coding with are: HTML + CSS, JavaScript, jQuery, Node.js, mySQL, Express.js, Sequelize.js, MongoDB and React.js.
+                </p>
+            </div>
+        
+            <div class='picture col-sm-6'>
+                <img class="pic" src="assets/images/Profile.jpeg">
+            </div>
+        </div>
+    </div>
+
+    <div id="Projects" class="projects">
+    <h1 style="color: #303539;">Here are a few things that I have done</h1>
+
+    <div>
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="https://ssadler9.github.io/Wheel-Way/" target="_blank">
+                    <img src="assets/images/nav.jpg" alt="WheelWay" height="200px" width="100%" class="icon">
+                </a>
+                <h2 style="color: #303539;">Wheel-Way</h2>
+            </div>
+            <div class="col-sm-4">
+                <a href="http://bassteetime.herokuapp.com/" target="_blank">
+                    <img src="assets/images/1388142261Golf_TeeTime_605x4021.jpg" alt="TeeTime" height="200px" width="100%" class="icon">
+                </a>
+                <h2 style="color: #303539;">TeeTime</h2>
+            </div>
+            <div class="col-sm-4">
+                <a href="https://prepconnect.herokuapp.com/" target="_bank">
+                    <img src="assets/images/5-digital-interview-tips.jpg" alt="PrepConnect" height="200px" width="100%" class="icon">
+                </a>
+                <h2 style="color: #303539;">PrepConnect</h2>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="Contact_me" class="row justify-content-center">
+        <div class="col-sm-12 text-center">
+            <div class="contact">
+                <h2>Email:</h2>
+                <a href="mailto:samsadler9@gmail.com">samsadler9@gmail.com</a> 
+                <h2>linkedIn:</h2>
+                <a href="https://www.linkedin.com/in/sam-sadler-83778b102/">Samuel Sadler</a>
+                <h2>GitHub:</h2>
+                <a href="https://github.com/ssadler9">Sam's GitHub</a>
+            </div>
+        </div>
+    </div>
 
 </div>
     <script type="text/javascript" src="assets/script/script.js" async></script>
