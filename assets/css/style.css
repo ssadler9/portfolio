@@ -2,6 +2,12 @@ h1,h2 {
   font-weight: 200;
   margin: 0.4em 0;
 }
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+} 
+
 h1 { 
 	color: #F8F8FF;
 	font-size: 3.5em; 
@@ -48,7 +54,6 @@ a:hover {
 	position: relative;
 	height: 700px;
 	width: 100%;
-	
 }
 
 .overlay {
@@ -83,7 +88,7 @@ a:hover {
 	height: 30%;
 	top: 10%;
 	left: 10%;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 
 .picContainer:hover .overlay {
@@ -100,7 +105,7 @@ a:hover {
 }
 
 .about_me {
-	top: 10%;
+	top: 5%;
 }
 
 .projects {
@@ -121,6 +126,7 @@ a:hover {
 	height: 400px;
 	top: 20%;
 	margin-left: 37px;
+
 }
 
 .color {
@@ -131,7 +137,7 @@ a:hover {
 	background-color: #303539;
 	height: 100%;
 	position: relative;
-	margin-top: 30px;
+	margin-top: 10px;
 	left: 5%;
 }
 
@@ -139,6 +145,7 @@ a:hover {
 	background-color: #303539;
 	height: 100%;
 	position: relative;
+	padding: 20px;
 }
 
 
