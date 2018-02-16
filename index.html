@@ -46,7 +46,7 @@
                 data-period="2000"
                 data-rotate='[ "Front-End Developer.", "Back-End Developer.", "Coding Enthusiast.", "Hardworker.", "Team Player."]'></span>
                     </strong></h1>
-                    <h2><strong>All it takes is a single <a href="index.html#Contact_me">Contact</a>.</strong></h2>
+                    <h2 style="padding-top: 10px"><strong>All it takes is a single <a href="index.html#Contact_me">Contact</a>.</strong></h2>
                 </div>
             </div>
         </div>
@@ -73,27 +73,60 @@
     </div>
 
     <div id="Projects" class="projects">
-    <h1 style="color: #303539;">Here are a few things that I have done</h1>
+    <h1 class="text-center" style="color: #303539;">Here are a few things that I have done</h1>
 
     <div>
         <br>
-        <div class="row">
-            <div class="col-sm-4">
-                <a href="https://ssadler9.github.io/Wheel-Way/" target="_blank">
+        <div class="row justify-content-center">
+            <div class="col-sm-3 picContainer">
+                <!-- <a href="https://ssadler9.github.io/Wheel-Way/" target="_blank"> -->
                     <img src="assets/images/nav.jpg" alt="WheelWay" height="200px" width="100%" class="icon">
-                </a>
+                <!-- </a> -->
+                    <div class="overlay">
+                        <div class="text">
+                            <!-- Button trigger modal -->
+                                <a href="#" data-toggle="modal" data-target="#ww_modal">
+                                    <i id="q-icon" class="far fa-question-circle fa-2x" data-fa-transform="left-3"></i>
+                                </a>
+                            <a href="https://ssadler9.github.io/Wheel-Way/" target="_blank">
+                                <i class="fas fa-link fa-2x" data-fa-transform="right-3"></i>
+                            </a>
+                        </div>
+                    </div>
                 <h2 style="color: #303539;">Wheel-Way</h2>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-3 picContainer">
                 <a href="http://bassteetime.herokuapp.com/" target="_blank">
                     <img src="assets/images/1388142261Golf_TeeTime_605x4021.jpg" alt="TeeTime" height="200px" width="100%" class="icon">
                 </a>
+                    <div class="overlay">
+                        <div class="text">
+                            <!-- Button trigger modal -->
+                            <a href="#" data-toggle="modal" data-target="#tt_modal">
+                                <i id="q-icon" class="far fa-question-circle fa-2x" data-fa-transform="left-3"></i>
+                            </a>
+                            <a href="http://bassteetime.herokuapp.com/" target="_blank">
+                                <i class="fas fa-link fa-2x" data-fa-transform="right-3"></i>
+                            </a>
+                        </div>
+                    </div>
                 <h2 style="color: #303539;">TeeTime</h2>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-3 picContainer">
                 <a href="https://prepconnect.herokuapp.com/" target="_bank">
                     <img src="assets/images/5-digital-interview-tips.jpg" alt="PrepConnect" height="200px" width="100%" class="icon">
                 </a>
+                    <div class="overlay">
+                        <div class="text">
+                            <!-- Button trigger modal -->
+                            <a href="#" data-toggle="modal" data-target="#pc_modal">
+                                <i id="q-icon" class="far fa-question-circle fa-2x" data-fa-transform="left-3"></i>
+                            </a>
+                            <a href="https://prepconnect.herokuapp.com/" target="_blank">
+                                <i class="fas fa-link fa-2x" data-fa-transform="right-3"></i>
+                            </a>
+                        </div>
+                    </div>
                 <h2 style="color: #303539;">PrepConnect</h2>
             </div>
         </div>
@@ -113,12 +146,105 @@
         </div>
     </div>
 
+    <!-- Modal for wheel-way -->
+    <div class="modal fade" id="ww_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Wheel-Way</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modals">
+            <p>
+            Wheel-Way is an app designed for people who use wheelchairs to get from point A to point B.  This app has an intuitive user interface with Google Maps.  I worked on the map in this project. 
+            </p> 
+            <p>
+            When the map displays, the user can click a spot on the map.  The user will then have to click the spot on the map again.  Once clicked, a form will display with options that identify an obstruction in the path.  Save the change, and the icon will be saved on the map in real time for other users to see!
+            </p>
+            <p>
+            Firebase was used to store the icon data.
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for TeeTime -->
+    <div class="modal fade" id="tt_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">TeeTime</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modals">
+            <p>
+                TeeTime is an idea I've had that comes from by background in golf.  This app is designed for private clubs to use as a tee sheet.  The difference here is that the members and guests can book their teetimes in real time!  That will help save the Golf Pro a lot of time to do other things around the shop.
+            </p>
+            <p>
+                I worked on the front-end of this app.  I designed with more of a traditional look that both golf pros and golfers are familiar with.  This is designed to effectively book a tee-time with minimal effort.  Golf pros will be able to access the admin side of the tee sheet.  There they can manipulate the times available for golfers to play.
+            </p>
+            <p>
+                NOTICE: THIS SITE IS NOT SECURE.  DO NOT ENTER PERSONAL INFORMATION.  DEMO PURPOSE ONLY.
+            </p>
+            <p>
+                Email me for log-in credentials.
+            </p> 
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for PrepConnect -->
+    <div class="modal fade" id="pc_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">PrepConnect</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modals">
+            <p>
+                PrepConnect is a Full-Stack Application created with the MERN Stack.  This is designed to help aspiring web developers land their first developer job.  I worked on this with a team of four.  I worked on the Font-End using React.js.
+            </p> 
+            <p>
+                PrepConnect is designed to take the focus off of the jobseeker's resume and more on their skill.  Here a jobseeker will create a profile by rating their skills in certain coding languages.
+            </p>
+            <p>
+                A Recruiter will go through a very similar process when posting a job.  There are two added steps - Set minimum compatibility, and Verify a skill with a question.  Then the job posting and jobseeker profile will be matched.
+            </p>
+            <p>
+                Then, a jobseeker will see a job posting, and can actually take the application immediately.  Select 'view appliction' to start the application process.  Use editors to answer recruiters questions!
+            </p>
+            <p>
+                NOTICE: THIS SITE IS NOT SECURE.  DO NOT ENTER PERSONAL INFORMATION.  DEMO PURPOSE ONLY.
+            </p>
+            <p>
+                Email me for log-in credentials.
+            </p> 
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
 <!-- </div> -->
     <script type="text/javascript" src="assets/script/script.js" async></script>
     <!-- Bootstrap script -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <!-- Font Awesome CDN -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
 </body>
 
 </html>
