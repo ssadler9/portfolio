@@ -33,7 +33,7 @@ a:hover {
 	background-image: url('../images/wood-2925399_1920.jpg');
 	background-size: 100%;
 	height: 650px;
-	width: 100%;
+	/*width: 100%;*/
 }
 
 .navbar {
@@ -43,16 +43,17 @@ a:hover {
 }
 
 .centered {
-  position: absolute; /* or absolute */
+  position: relative; /* or absolute */
+  text-align: center;
   top: 35%;
-  left: 28%;
+  /*left: 28%;*/
 }
 
 .bkgrd {
 	background-image: url('../images/milada-vigerova-66601.jpg');
 	background-size: 100%;
 	position: relative;
-	height: 700px;
+	/*height: 700px;*/
 	width: 100%;
 }
 
@@ -84,12 +85,19 @@ a:hover {
 
 .picture {
 	position: relative;
-	width: 60%;
-	height: 30%;
-	top: 10%;
-	left: 10%;
-	margin-top: 10px;
+	/*width: 60%;*/
+	/*height: 30%;*/
+	/*top: 10%;*/
+	/*left: 10%;*/
+	/*margin-top: 10px;*/
 }
+
+/*Setu - added this section, bootstrap not recognizing center-block*/
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
 
 .picContainer:hover .overlay {
   width: 100%;
@@ -113,6 +121,7 @@ a:hover {
 	position: relative;
 	width: 100%;
 	height: 700px;
+	padding-top: 20px;
 }
 
 
@@ -121,11 +130,12 @@ a:hover {
 }
 
 .pic {
-	position: relative;
-	width: 400px;
-	height: 400px;
-	top: 20%;
-	margin-left: 37px;
+	/*position: relative;*/
+	max-width: 400px;
+	margin-bottom: 40px;
+	/*height: 400px;*/
+	/*top: 20%;*/
+	/*margin-left: 37px;*/
 
 }
 
@@ -135,10 +145,11 @@ a:hover {
 
 .about {
 	background-color: #303539;
-	height: 100%;
-	position: relative;
-	margin-top: 10px;
-	left: 5%;
+	/*height: 100%;*/
+	/*position: relative;*/
+	padding: 50px;
+	/*margin-top: 10px;*/
+	/*left: 5%;*/
 }
 
 .modals {
